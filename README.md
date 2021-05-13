@@ -9,7 +9,7 @@ sudo apt install -y python3 python3-pip
 sudo python3 -m pip install -U pip virtualenv
 git clone https://github.com/elshaio/bcrypt_gen
 cd bcrypt_gen 
-virtualenv venv
+virtualenv -p python3 venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
