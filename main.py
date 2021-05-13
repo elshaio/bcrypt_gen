@@ -1,4 +1,3 @@
-#!/home/concredito.com.mx/riromans/.virtualenvs/bcript/bin/python
 import bcrypt
 import sys
 import string
